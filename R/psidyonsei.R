@@ -8,7 +8,7 @@
 #' @export
 load_var <- function(){
   varlist=c()
-  x=NULL
+  x=0
   while(x!='!'){
     x=readline('Enter ! when finished : ')
     append(varlist, as.character(x))
