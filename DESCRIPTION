@@ -1,7 +1,7 @@
 Package: psidyonsei
 Type: Package
 Title: A tool for analyzing PSID(Panel Study of Income Dynamics) datasets
-Version: 0.1.0
+Version: 0.1.1
 Author: Wooyong Park
 Maintainer: Wooyong Park <tommypark822@gmail.com>
 Description: A Revision of psidread
