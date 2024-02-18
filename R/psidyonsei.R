@@ -13,7 +13,7 @@ load_var <- function(){
     if(x=='!'){break}
     varlist=append(varlist, x)
   }
-  return(varlist)
+  return(varlist[-length(varlist)])
 }
 
 #' Help search PSID variables
