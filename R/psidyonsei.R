@@ -11,7 +11,7 @@ load_var <- function(){
   x=0
   while(x!='!'){
     x=readline('Enter ! when finished : ')
-    append(varlist, as.character(x))
+    varlist=append(varlist, as.character(x))
   }
   return(varlist)
 }
