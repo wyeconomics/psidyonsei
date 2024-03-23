@@ -40,6 +40,6 @@ var_search <- function(varlist){
 #'
 #' @export
 psid_read2 <- function(indir,str_df, idvars=NA, type, filename=NA){
-  return(psidread::psid_read(indir=indir, str_df=str_df, idvars=idvars, type=type, filename=filename) %>% rename(ER30001=pid))
+  return(psidread::psid_read(indir=indir, str_df=str_df, idvars=idvars, type=type, filename=filename) %>% mutate(ER30001=pid%/%1000))
 }
 
